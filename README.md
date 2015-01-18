@@ -1,6 +1,6 @@
 # Normal Form Race - Video Game Consoles as Data
 
-The domain of this sample site is video game consoles. Users are invited to provide information about 3 different video game consoles they are using at home. That information is then presented back to the user in different relational data models. The purpose of the app is to illustrate different levels of normalization.
+The domain exercise in data is video game consoles. Users are invited to provide information about 3 different video game consoles they are using at home. That information is then presented back to the user in different relational data models. The purpose of the app is to illustrate different levels of normalization.
 
 A further goal of the app is to provide analysis of the physical implementation of each form. How well does a database perform with each implementation?
 
