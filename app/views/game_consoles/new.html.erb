@@ -1,0 +1,8 @@
+<h1>New Game Console</h1>
+  <div>
+    <%= form_for @game_console do |f| %>
+      <%= f.label :manufacturer %>
+      <%= f.text_area :manufacturer %>
+      <%= f.submit 'Submit' %>
+    <% end %>
+  </div>

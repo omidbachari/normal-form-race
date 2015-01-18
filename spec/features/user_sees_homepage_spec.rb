@@ -16,5 +16,14 @@ feature "User sees homepage", %(
     visit root_path
 
     expect(page).to have_content "Welcome to Normal Form Race - Video Game Consoles as Data"
+
+    click_on "New Game Console"
+
+    fill_in "Manufacturer", with: "Sony"
+    click_on "Submit"
+
+    expect(page).to have_content "Thank you for submitting game console data."
+
+
   end
 end
