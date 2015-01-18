@@ -1,28 +1,38 @@
-== README
+# User Stories
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Core Functionality
 
-Things you may want to cover:
+### User sees homepage  
 
-* Ruby version
+As a user  
+I want to navigate to a home page and see a form and instructions  
+So that I know what the purpose of the site is
 
-* System dependencies
+#### Acceptance Criteria  
 
-* Configuration
+* [] I see static instructions
+* [] I see a form
 
-* Database creation
+### User submits raw data
 
-* Database initialization
+As a user  
+I want to submit raw data, using the form  
+So that I can see the different relational data modeling schemes
 
-* How to run the test suite
+#### Acceptance Criteria
 
-* Services (job queues, cache servers, search engines, etc.)
+* [] I fill the fields with information
+* [] The fields constrain data to a limited domain
+* [] I am presented with errors if something is blank or incorrect
+* [] I am able to submit the data
+* [] If error-free, am redirected to the page containing my data
 
-* Deployment instructions
+### User sees data in different models
 
-* ...
+As a user
+I want to see my submitted data presented in different models
+So that I can compare the different levels of normal forms
 
+#### Acceptance Criteria
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* [] I see four different presentations, corresponding to Universal Relations, First Normal Form, Second Normal Form and Third Normal Form
