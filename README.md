@@ -4,7 +4,7 @@ The domain of this data exercise is video game consoles. Users are invited to pr
 
 A further goal of the app is to provide analysis of the physical implementation of each form. How well does a database perform with each implementation?
 
-This app is meant to illustrate different levels of normalization for the educational benefit of the user. Please send feedback and suggestions to [omidbachari@gmail.com](omidbachari@gmail.com).  
+This app is meant to illustrate different levels of normalization for the educational benefit of the user. Please send feedback and suggestions to omidbachari@gmail.com.  
 
 
 # User Stories
