@@ -9,7 +9,7 @@ feature "User sees homepage", %(
   #### Acceptance Criteria
 
   * [] I see static instructions
-  * [] I see a form
+  * [] I see a form and I can submit information
   ) do
 
   scenario "user sees introductory form and instructions" do
@@ -23,7 +23,5 @@ feature "User sees homepage", %(
     click_on "Submit"
 
     expect(page).to have_content "Thank you for submitting game console data."
-
-
   end
 end
